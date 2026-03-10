@@ -43,3 +43,7 @@ logs/
 *.tmp
 *.temp
 
+MINDlarge_test/
+MINDlarge_train/
+MINDsmall_dev/
+MINDsmall_train/

@@ -1,0 +1,3966 @@
+{
+  "N26869": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 12.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 12,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 30,
+        "yngve_mean": 2.5,
+        "yngve_max": 4,
+        "frazier_sum": 15.5,
+        "frazier_mean": 1.2916666666666667,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N13021": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 20.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      4.421052631578948
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 58,
+        "yngve_mean": 3.2222222222222223,
+        "yngve_max": 6,
+        "frazier_sum": 24.5,
+        "frazier_mean": 1.3611111111111112,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N52698": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 28.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.107142857142857
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 24,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 111,
+        "yngve_mean": 4.625,
+        "yngve_max": 9,
+        "frazier_sum": 39.0,
+        "frazier_mean": 1.625,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N82357": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 22.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.909090909090909
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 22,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 90,
+        "yngve_mean": 4.090909090909091,
+        "yngve_max": 8,
+        "frazier_sum": 32.0,
+        "frazier_mean": 1.4545454545454546,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N35969": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 41.0,
+    "Density of Clauses": [
+      4,
+      2
+    ],
+    "Mean Dependency Length": [
+      5.228070175438597,
+      4.434782608695652
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 53,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 260,
+        "yngve_mean": 4.90566037735849,
+        "yngve_max": 11,
+        "frazier_sum": 99.0,
+        "frazier_mean": 1.8679245283018868,
+        "frazier_max": 6.0
+      },
+      "Sentence 2": {
+        "n_words": 22,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 72,
+        "yngve_mean": 3.272727272727273,
+        "yngve_max": 6,
+        "frazier_sum": 30.5,
+        "frazier_mean": 1.3863636363636365,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N52675": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      2.473684210526316
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 47,
+        "yngve_mean": 2.611111111111111,
+        "yngve_max": 5,
+        "frazier_sum": 27.5,
+        "frazier_mean": 1.5277777777777777,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N57537": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 36.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.2777777777777777
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 33,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 122,
+        "yngve_mean": 3.696969696969697,
+        "yngve_max": 9,
+        "frazier_sum": 57.5,
+        "frazier_mean": 1.7424242424242424,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N50602": {
+    "Number of Sentences": 5,
+    "Mean Sentence Length (characters)": 18.2,
+    "Density of Clauses": [
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "Mean Dependency Length": [
+      3.125,
+      3.375,
+      2.6666666666666665,
+      3.6956521739130435,
+      2.125
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 23,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 87,
+        "yngve_mean": 3.782608695652174,
+        "yngve_max": 7,
+        "frazier_sum": 44.0,
+        "frazier_mean": 1.9130434782608696,
+        "frazier_max": 6.0
+      },
+      "Sentence 2": {
+        "n_words": 23,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 62,
+        "yngve_mean": 2.6956521739130435,
+        "yngve_max": 4,
+        "frazier_sum": 35.0,
+        "frazier_mean": 1.5217391304347827,
+        "frazier_max": 4.5
+      },
+      "Sentence 3": {
+        "n_words": 12,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 28,
+        "yngve_mean": 2.3333333333333335,
+        "yngve_max": 4,
+        "frazier_sum": 16.0,
+        "frazier_mean": 1.3333333333333333,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 23,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 65,
+        "yngve_mean": 2.8260869565217392,
+        "yngve_max": 5,
+        "frazier_sum": 34.0,
+        "frazier_mean": 1.4782608695652173,
+        "frazier_max": 4.0
+      },
+      "Sentence 5": {
+        "n_words": 8,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 19,
+        "yngve_mean": 2.375,
+        "yngve_max": 4,
+        "frazier_sum": 12.0,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N120197": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 5.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      2.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 5,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 6,
+        "yngve_mean": 1.2,
+        "yngve_max": 2,
+        "frazier_sum": 9.0,
+        "frazier_mean": 1.8,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N92915": {
+    "Number of Sentences": 7,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      1,
+      4,
+      2,
+      1,
+      1,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.2,
+      3.3333333333333335,
+      3.2857142857142856,
+      2.142857142857143,
+      1.5,
+      3.9615384615384617,
+      1.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 4,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 9,
+        "yngve_mean": 2.25,
+        "yngve_max": 4,
+        "frazier_sum": 9.0,
+        "frazier_mean": 2.25,
+        "frazier_max": 3.0
+      },
+      "Sentence 2": {
+        "n_words": 29,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 127,
+        "yngve_mean": 4.379310344827586,
+        "yngve_max": 8,
+        "frazier_sum": 50.0,
+        "frazier_mean": 1.7241379310344827,
+        "frazier_max": 4.0
+      },
+      "Sentence 3": {
+        "n_words": 14,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 44,
+        "yngve_mean": 3.142857142857143,
+        "yngve_max": 5,
+        "frazier_sum": 24.0,
+        "frazier_mean": 1.7142857142857142,
+        "frazier_max": 4.5
+      },
+      "Sentence 4": {
+        "n_words": 12,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 39,
+        "yngve_mean": 3.25,
+        "yngve_max": 5,
+        "frazier_sum": 15.5,
+        "frazier_mean": 1.2916666666666667,
+        "frazier_max": 3.5
+      },
+      "Sentence 5": {
+        "n_words": 3,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 3,
+        "yngve_mean": 1.0,
+        "yngve_max": 2,
+        "frazier_sum": 6.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      },
+      "Sentence 6": {
+        "n_words": 22,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 84,
+        "yngve_mean": 3.8181818181818183,
+        "yngve_max": 9,
+        "frazier_sum": 37.5,
+        "frazier_mean": 1.7045454545454546,
+        "frazier_max": 3.5
+      },
+      "Sentence 7": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 3,
+        "yngve_mean": 1.5,
+        "yngve_max": 2,
+        "frazier_sum": 4.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      }
+    }
+  },
+  "N69726": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 42.0,
+    "Density of Clauses": [
+      4
+    ],
+    "Mean Dependency Length": [
+      3.682926829268293
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 39,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 172,
+        "yngve_mean": 4.410256410256411,
+        "yngve_max": 9,
+        "frazier_sum": 59.0,
+        "frazier_mean": 1.5128205128205128,
+        "frazier_max": 4.0
+      }
+    }
+  },
+  "N93362": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 20.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.1578947368421053
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 32,
+        "yngve_mean": 1.6842105263157894,
+        "yngve_max": 3,
+        "frazier_sum": 32.0,
+        "frazier_mean": 1.6842105263157894,
+        "frazier_max": 5.0
+      }
+    }
+  },
+  "N10427": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 21.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.3636363636363638
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 21,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 82,
+        "yngve_mean": 3.9047619047619047,
+        "yngve_max": 7,
+        "frazier_sum": 37.5,
+        "frazier_mean": 1.7857142857142858,
+        "frazier_max": 6.0
+      }
+    }
+  },
+  "N111682": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 26.0,
+    "Density of Clauses": [
+      4
+    ],
+    "Mean Dependency Length": [
+      3.72
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 24,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 130,
+        "yngve_mean": 5.416666666666667,
+        "yngve_max": 11,
+        "frazier_sum": 39.0,
+        "frazier_mean": 1.625,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N10373": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 19.5,
+    "Density of Clauses": [
+      3,
+      2,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.8181818181818183,
+      3.7916666666666665,
+      3.52,
+      1.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 22,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 64,
+        "yngve_mean": 2.909090909090909,
+        "yngve_max": 6,
+        "frazier_sum": 35.5,
+        "frazier_mean": 1.6136363636363635,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 24,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 77,
+        "yngve_mean": 3.2083333333333335,
+        "yngve_max": 6,
+        "frazier_sum": 39.0,
+        "frazier_mean": 1.625,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 23,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 72,
+        "yngve_mean": 3.130434782608696,
+        "yngve_max": 6,
+        "frazier_sum": 39.0,
+        "frazier_mean": 1.6956521739130435,
+        "frazier_max": 5.0
+      },
+      "Sentence 4": {
+        "n_words": 3,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 6,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 8.0,
+        "frazier_mean": 2.6666666666666665,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N27897": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      4,
+      2,
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      4.071428571428571,
+      3.72,
+      3.9,
+      2.888888888888889
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 27,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 79,
+        "yngve_mean": 2.925925925925926,
+        "yngve_max": 5,
+        "frazier_sum": 38.5,
+        "frazier_mean": 1.4259259259259258,
+        "frazier_max": 3.0
+      },
+      "Sentence 2": {
+        "n_words": 24,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 81,
+        "yngve_mean": 3.375,
+        "yngve_max": 7,
+        "frazier_sum": 50.0,
+        "frazier_mean": 2.0833333333333335,
+        "frazier_max": 4.5
+      },
+      "Sentence 3": {
+        "n_words": 10,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 29,
+        "yngve_mean": 2.9,
+        "yngve_max": 5,
+        "frazier_sum": 17.0,
+        "frazier_mean": 1.7,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 8,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 26,
+        "yngve_mean": 3.25,
+        "yngve_max": 5,
+        "frazier_sum": 14.5,
+        "frazier_mean": 1.8125,
+        "frazier_max": 4.0
+      }
+    }
+  },
+  "N94997": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 25.0,
+    "Density of Clauses": [
+      4,
+      1,
+      3
+    ],
+    "Mean Dependency Length": [
+      4.117647058823529,
+      2.5454545454545454,
+      3.888888888888889
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 31,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 237,
+        "yngve_mean": 7.645161290322581,
+        "yngve_max": 13,
+        "frazier_sum": 48.0,
+        "frazier_mean": 1.5483870967741935,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 11,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 28,
+        "yngve_mean": 2.5454545454545454,
+        "yngve_max": 6,
+        "frazier_sum": 24.5,
+        "frazier_mean": 2.227272727272727,
+        "frazier_max": 3.0
+      },
+      "Sentence 3": {
+        "n_words": 25,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 80,
+        "yngve_mean": 3.2,
+        "yngve_max": 6,
+        "frazier_sum": 38.0,
+        "frazier_mean": 1.52,
+        "frazier_max": 4.0
+      }
+    }
+  },
+  "N48584": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 11.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      1.7
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 11,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 14,
+        "yngve_mean": 1.2727272727272727,
+        "yngve_max": 3,
+        "frazier_sum": 26.5,
+        "frazier_mean": 2.409090909090909,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N77447": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 16.0,
+    "Density of Clauses": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.5,
+      2.740740740740741,
+      3.1333333333333333,
+      1.75
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 13,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 38,
+        "yngve_mean": 2.923076923076923,
+        "yngve_max": 5,
+        "frazier_sum": 17.5,
+        "frazier_mean": 1.3461538461538463,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 26,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 73,
+        "yngve_mean": 2.8076923076923075,
+        "yngve_max": 5,
+        "frazier_sum": 37.0,
+        "frazier_mean": 1.4230769230769231,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 12,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 46,
+        "yngve_mean": 3.8333333333333335,
+        "yngve_max": 6,
+        "frazier_sum": 15.5,
+        "frazier_mean": 1.2916666666666667,
+        "frazier_max": 2.5
+      },
+      "Sentence 4": {
+        "n_words": 4,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 8,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 8.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N84262": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 26.0,
+    "Density of Clauses": [
+      4
+    ],
+    "Mean Dependency Length": [
+      3.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 24,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 127,
+        "yngve_mean": 5.291666666666667,
+        "yngve_max": 9,
+        "frazier_sum": 37.0,
+        "frazier_mean": 1.5416666666666667,
+        "frazier_max": 5.0
+      }
+    }
+  },
+  "N27852": {
+    "Number of Sentences": 5,
+    "Mean Sentence Length (characters)": 17.0,
+    "Density of Clauses": [
+      3,
+      2,
+      2,
+      2,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.0434782608695654,
+      3.576923076923077,
+      3.411764705882353,
+      2.25,
+      2.5
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 23,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 68,
+        "yngve_mean": 2.9565217391304346,
+        "yngve_max": 5,
+        "frazier_sum": 38.0,
+        "frazier_mean": 1.6521739130434783,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 23,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 107,
+        "yngve_mean": 4.6521739130434785,
+        "yngve_max": 7,
+        "frazier_sum": 32.5,
+        "frazier_mean": 1.4130434782608696,
+        "frazier_max": 4.5
+      },
+      "Sentence 3": {
+        "n_words": 16,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 52,
+        "yngve_mean": 3.25,
+        "yngve_max": 7,
+        "frazier_sum": 31.5,
+        "frazier_mean": 1.96875,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 8,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 17,
+        "yngve_mean": 2.125,
+        "yngve_max": 3,
+        "frazier_sum": 12.0,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.5
+      },
+      "Sentence 5": {
+        "n_words": 6,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 12,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 10.0,
+        "frazier_mean": 1.6666666666666667,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N121097": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 22.0,
+    "Density of Clauses": [
+      3,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      4.081081081081081,
+      3.380952380952381,
+      1.8
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 34,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 118,
+        "yngve_mean": 3.4705882352941178,
+        "yngve_max": 8,
+        "frazier_sum": 62.5,
+        "frazier_mean": 1.838235294117647,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 67,
+        "yngve_mean": 3.526315789473684,
+        "yngve_max": 7,
+        "frazier_sum": 32.0,
+        "frazier_mean": 1.6842105263157894,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 5,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 10,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 7.5,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N52969": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 25.333333333333332,
+    "Density of Clauses": [
+      3,
+      2,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.8125,
+      2.8181818181818183,
+      3.3157894736842106
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 31,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 132,
+        "yngve_mean": 4.258064516129032,
+        "yngve_max": 8,
+        "frazier_sum": 48.5,
+        "frazier_mean": 1.564516129032258,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 22,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 64,
+        "yngve_mean": 2.909090909090909,
+        "yngve_max": 6,
+        "frazier_sum": 47.0,
+        "frazier_mean": 2.1363636363636362,
+        "frazier_max": 5.5
+      },
+      "Sentence 3": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 67,
+        "yngve_mean": 3.526315789473684,
+        "yngve_max": 7,
+        "frazier_sum": 27.0,
+        "frazier_mean": 1.4210526315789473,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N38651": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 8.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      2.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 7,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 16,
+        "yngve_mean": 2.2857142857142856,
+        "yngve_max": 4,
+        "frazier_sum": 16.5,
+        "frazier_mean": 2.357142857142857,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N94824": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 38.5,
+    "Density of Clauses": [
+      5,
+      4
+    ],
+    "Mean Dependency Length": [
+      3.3260869565217392,
+      3.3
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 44,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 157,
+        "yngve_mean": 3.5681818181818183,
+        "yngve_max": 8,
+        "frazier_sum": 73.5,
+        "frazier_mean": 1.6704545454545454,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 30,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 92,
+        "yngve_mean": 3.066666666666667,
+        "yngve_max": 6,
+        "frazier_sum": 53.0,
+        "frazier_mean": 1.7666666666666666,
+        "frazier_max": 4.0
+      }
+    }
+  },
+  "N69559": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.0714285714285716
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 14,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 32,
+        "yngve_mean": 2.2857142857142856,
+        "yngve_max": 3,
+        "frazier_sum": 21.5,
+        "frazier_mean": 1.5357142857142858,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N57769": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 24.0,
+    "Density of Clauses": [
+      8,
+      6,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.230769230769231,
+      3.1,
+      3.0434782608695654,
+      1.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 36,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 105,
+        "yngve_mean": 2.9166666666666665,
+        "yngve_max": 8,
+        "frazier_sum": 59.0,
+        "frazier_mean": 1.6388888888888888,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 30,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 83,
+        "yngve_mean": 2.7666666666666666,
+        "yngve_max": 6,
+        "frazier_sum": 58.0,
+        "frazier_mean": 1.9333333333333333,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 96,
+        "yngve_mean": 5.333333333333333,
+        "yngve_max": 8,
+        "frazier_sum": 28.5,
+        "frazier_mean": 1.5833333333333333,
+        "frazier_max": 4.0
+      },
+      "Sentence 4": {
+        "n_words": 1,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 1,
+        "yngve_mean": 1.0,
+        "yngve_max": 1,
+        "frazier_sum": 2.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      }
+    }
+  },
+  "N79605": {
+    "Number of Sentences": 5,
+    "Mean Sentence Length (characters)": 18.0,
+    "Density of Clauses": [
+      2,
+      2,
+      2,
+      5,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.75,
+      2.0,
+      2.4166666666666665,
+      5.040816326530612,
+      1.75
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 20,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 56,
+        "yngve_mean": 2.8,
+        "yngve_max": 5,
+        "frazier_sum": 33.0,
+        "frazier_mean": 1.65,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 5,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 9,
+        "yngve_mean": 1.8,
+        "yngve_max": 2,
+        "frazier_sum": 9.0,
+        "frazier_mean": 1.8,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 11,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 34,
+        "yngve_mean": 3.090909090909091,
+        "yngve_max": 6,
+        "frazier_sum": 28.0,
+        "frazier_mean": 2.5454545454545454,
+        "frazier_max": 4.0
+      },
+      "Sentence 4": {
+        "n_words": 43,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 3,
+        "yngve_sum": 290,
+        "yngve_mean": 6.744186046511628,
+        "yngve_max": 13,
+        "frazier_sum": 72.0,
+        "frazier_mean": 1.6744186046511629,
+        "frazier_max": 4.0
+      },
+      "Sentence 5": {
+        "n_words": 4,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 8,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 6.5,
+        "frazier_mean": 1.625,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N74127": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 17.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.25
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 41,
+        "yngve_mean": 2.5625,
+        "yngve_max": 4,
+        "frazier_sum": 24.0,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N41191": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 36.0,
+    "Density of Clauses": [
+      5,
+      5
+    ],
+    "Mean Dependency Length": [
+      3.257142857142857,
+      4.027777777777778
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 35,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 113,
+        "yngve_mean": 3.2285714285714286,
+        "yngve_max": 7,
+        "frazier_sum": 70.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 32,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 114,
+        "yngve_mean": 3.5625,
+        "yngve_max": 7,
+        "frazier_sum": 57.0,
+        "frazier_mean": 1.78125,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N81001": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      2,
+      2
+    ],
+    "Mean Dependency Length": [
+      3.7666666666666666,
+      1.8333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 28,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 119,
+        "yngve_mean": 4.25,
+        "yngve_max": 9,
+        "frazier_sum": 52.5,
+        "frazier_mean": 1.875,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 6,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 12,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 10.0,
+        "frazier_mean": 1.6666666666666667,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N53222": {
+    "Number of Sentences": 6,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      2,
+      1,
+      1,
+      1,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.625,
+      2.5,
+      2.3636363636363638,
+      2.0,
+      3.8,
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 24,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 61,
+        "yngve_mean": 2.5416666666666665,
+        "yngve_max": 6,
+        "frazier_sum": 48.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 43,
+        "yngve_mean": 2.6875,
+        "yngve_max": 5,
+        "frazier_sum": 25.5,
+        "frazier_mean": 1.59375,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 32,
+        "yngve_mean": 2.909090909090909,
+        "yngve_max": 5,
+        "frazier_sum": 18.5,
+        "frazier_mean": 1.6818181818181819,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 5,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 5,
+        "yngve_mean": 1.0,
+        "yngve_max": 2,
+        "frazier_sum": 7.5,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.5
+      },
+      "Sentence 5": {
+        "n_words": 18,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 87,
+        "yngve_mean": 4.833333333333333,
+        "yngve_max": 8,
+        "frazier_sum": 28.5,
+        "frazier_mean": 1.5833333333333333,
+        "frazier_max": 5.0
+      },
+      "Sentence 6": {
+        "n_words": 3,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 5,
+        "yngve_mean": 1.6666666666666667,
+        "yngve_max": 2,
+        "frazier_sum": 5.0,
+        "frazier_mean": 1.6666666666666667,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N107333": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 31.5,
+    "Density of Clauses": [
+      5,
+      2
+    ],
+    "Mean Dependency Length": [
+      3.2142857142857144,
+      4.05
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 40,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 186,
+        "yngve_mean": 4.65,
+        "yngve_max": 9,
+        "frazier_sum": 74.5,
+        "frazier_mean": 1.8625,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 77,
+        "yngve_mean": 4.052631578947368,
+        "yngve_max": 6,
+        "frazier_sum": 38.5,
+        "frazier_mean": 2.026315789473684,
+        "frazier_max": 5.0
+      }
+    }
+  },
+  "N61192": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 10.0,
+    "Density of Clauses": [
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      4.0,
+      2.2857142857142856
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 12,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 35,
+        "yngve_mean": 2.9166666666666665,
+        "yngve_max": 5,
+        "frazier_sum": 17.5,
+        "frazier_mean": 1.4583333333333333,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 7,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 15,
+        "yngve_mean": 2.142857142857143,
+        "yngve_max": 3,
+        "frazier_sum": 9.5,
+        "frazier_mean": 1.3571428571428572,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N65243": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 25.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.4
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 25,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 82,
+        "yngve_mean": 3.28,
+        "yngve_max": 7,
+        "frazier_sum": 34.5,
+        "frazier_mean": 1.38,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N29945": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 19.5,
+    "Density of Clauses": [
+      2,
+      3,
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      2.8333333333333335,
+      4.575,
+      2.1666666666666665,
+      3.375
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 12,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 30,
+        "yngve_mean": 2.5,
+        "yngve_max": 4,
+        "frazier_sum": 18.5,
+        "frazier_mean": 1.5416666666666667,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 37,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 210,
+        "yngve_mean": 5.675675675675675,
+        "yngve_max": 10,
+        "frazier_sum": 50.5,
+        "frazier_mean": 1.364864864864865,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 6,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 13,
+        "yngve_mean": 2.1666666666666665,
+        "yngve_max": 3,
+        "frazier_sum": 8.5,
+        "frazier_mean": 1.4166666666666667,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 15,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 41,
+        "yngve_mean": 2.7333333333333334,
+        "yngve_max": 5,
+        "frazier_sum": 24.5,
+        "frazier_mean": 1.6333333333333333,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N22157": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 29.0,
+    "Density of Clauses": [
+      1,
+      6,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.3703703703703702,
+      3.2452830188679247,
+      1.5
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 23,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 80,
+        "yngve_mean": 3.4782608695652173,
+        "yngve_max": 8,
+        "frazier_sum": 36.0,
+        "frazier_mean": 1.565217391304348,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 47,
+        "left_embedding_depth": 5,
+        "center_embedding_depth": 0,
+        "yngve_sum": 225,
+        "yngve_mean": 4.787234042553192,
+        "yngve_max": 10,
+        "frazier_sum": 97.5,
+        "frazier_mean": 2.074468085106383,
+        "frazier_max": 6.5
+      },
+      "Sentence 3": {
+        "n_words": 4,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 8,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 6.5,
+        "frazier_mean": 1.625,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N45407": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 43.5,
+    "Density of Clauses": [
+      8,
+      5
+    ],
+    "Mean Dependency Length": [
+      3.8157894736842106,
+      3.4791666666666665
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 36,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 178,
+        "yngve_mean": 4.944444444444445,
+        "yngve_max": 10,
+        "frazier_sum": 56.0,
+        "frazier_mean": 1.5555555555555556,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 47,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 138,
+        "yngve_mean": 2.9361702127659575,
+        "yngve_max": 6,
+        "frazier_sum": 81.5,
+        "frazier_mean": 1.7340425531914894,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N28671": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 31.5,
+    "Density of Clauses": [
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      3.5757575757575757,
+      3.4827586206896552
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 32,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 115,
+        "yngve_mean": 3.59375,
+        "yngve_max": 7,
+        "frazier_sum": 54.5,
+        "frazier_mean": 1.703125,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 27,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 107,
+        "yngve_mean": 3.962962962962963,
+        "yngve_max": 8,
+        "frazier_sum": 45.0,
+        "frazier_mean": 1.6666666666666667,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N52335": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 22.333333333333332,
+    "Density of Clauses": [
+      1,
+      4,
+      5
+    ],
+    "Mean Dependency Length": [
+      3.1176470588235294,
+      2.7037037037037037,
+      4.190476190476191
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 16,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 54,
+        "yngve_mean": 3.375,
+        "yngve_max": 7,
+        "frazier_sum": 29.5,
+        "frazier_mean": 1.84375,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 21,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 108,
+        "yngve_mean": 5.142857142857143,
+        "yngve_max": 8,
+        "frazier_sum": 38.5,
+        "frazier_mean": 1.8333333333333333,
+        "frazier_max": 4.0
+      },
+      "Sentence 3": {
+        "n_words": 19,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 72,
+        "yngve_mean": 3.789473684210526,
+        "yngve_max": 7,
+        "frazier_sum": 36.5,
+        "frazier_mean": 1.9210526315789473,
+        "frazier_max": 5.5
+      }
+    }
+  },
+  "N107102": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 17.5,
+    "Density of Clauses": [
+      3,
+      2,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.064516129032258,
+      3.619047619047619,
+      3.0833333333333335,
+      1.5
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 29,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 155,
+        "yngve_mean": 5.344827586206897,
+        "yngve_max": 8,
+        "frazier_sum": 56.0,
+        "frazier_mean": 1.9310344827586208,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 21,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 65,
+        "yngve_mean": 3.0952380952380953,
+        "yngve_max": 6,
+        "frazier_sum": 36.0,
+        "frazier_mean": 1.7142857142857142,
+        "frazier_max": 4.0
+      },
+      "Sentence 3": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 29,
+        "yngve_mean": 2.6363636363636362,
+        "yngve_max": 4,
+        "frazier_sum": 14.5,
+        "frazier_mean": 1.3181818181818181,
+        "frazier_max": 4.5
+      },
+      "Sentence 4": {
+        "n_words": 1,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 2,
+        "yngve_mean": 2.0,
+        "yngve_max": 2,
+        "frazier_sum": 3.5,
+        "frazier_mean": 3.5,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N65227": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 18.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.8421052631578947
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 84,
+        "yngve_mean": 4.666666666666667,
+        "yngve_max": 8,
+        "frazier_sum": 28.0,
+        "frazier_mean": 1.5555555555555556,
+        "frazier_max": 6.0
+      }
+    }
+  },
+  "N102213": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 23.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.0869565217391304
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 23,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 66,
+        "yngve_mean": 2.869565217391304,
+        "yngve_max": 5,
+        "frazier_sum": 44.5,
+        "frazier_mean": 1.934782608695652,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N70507": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 24.666666666666668,
+    "Density of Clauses": [
+      3,
+      2,
+      3
+    ],
+    "Mean Dependency Length": [
+      3.142857142857143,
+      2.7222222222222223,
+      3.625
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 21,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 63,
+        "yngve_mean": 3.0,
+        "yngve_max": 6,
+        "frazier_sum": 36.0,
+        "frazier_mean": 1.7142857142857142,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 18,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 49,
+        "yngve_mean": 2.7222222222222223,
+        "yngve_max": 5,
+        "frazier_sum": 23.0,
+        "frazier_mean": 1.2777777777777777,
+        "frazier_max": 2.5
+      },
+      "Sentence 3": {
+        "n_words": 30,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 120,
+        "yngve_mean": 4.0,
+        "yngve_max": 7,
+        "frazier_sum": 40.5,
+        "frazier_mean": 1.35,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N41666": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 7.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      1.6666666666666667
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 7,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 10,
+        "yngve_mean": 1.4285714285714286,
+        "yngve_max": 3,
+        "frazier_sum": 14.5,
+        "frazier_mean": 2.0714285714285716,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N58151": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 7.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 7,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 8,
+        "yngve_mean": 1.1428571428571428,
+        "yngve_max": 2,
+        "frazier_sum": 12.5,
+        "frazier_mean": 1.7857142857142858,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N55223": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 25.0,
+    "Density of Clauses": [
+      5,
+      2,
+      2
+    ],
+    "Mean Dependency Length": [
+      4.65,
+      2.4814814814814814,
+      2.1666666666666665
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 37,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 160,
+        "yngve_mean": 4.324324324324325,
+        "yngve_max": 9,
+        "frazier_sum": 83.0,
+        "frazier_mean": 2.2432432432432434,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 26,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 78,
+        "yngve_mean": 3.0,
+        "yngve_max": 6,
+        "frazier_sum": 47.0,
+        "frazier_mean": 1.8076923076923077,
+        "frazier_max": 4.5
+      },
+      "Sentence 3": {
+        "n_words": 5,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 14,
+        "yngve_mean": 2.8,
+        "yngve_max": 4,
+        "frazier_sum": 11.0,
+        "frazier_mean": 2.2,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N67094": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 31.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      2.966666666666667
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 30,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 88,
+        "yngve_mean": 2.933333333333333,
+        "yngve_max": 7,
+        "frazier_sum": 60.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 5.5
+      }
+    }
+  },
+  "N36825": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 22.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.238095238095238
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 20,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 77,
+        "yngve_mean": 3.85,
+        "yngve_max": 7,
+        "frazier_sum": 29.0,
+        "frazier_mean": 1.45,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N17770": {
+    "Number of Sentences": 7,
+    "Mean Sentence Length (characters)": 11.714285714285714,
+    "Density of Clauses": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1
+    ],
+    "Mean Dependency Length": [
+      1.5,
+      3.1153846153846154,
+      0.0,
+      3.0,
+      3.25,
+      2.6363636363636362,
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 5,
+        "yngve_mean": 2.5,
+        "yngve_max": 3,
+        "frazier_sum": 2.0,
+        "frazier_mean": 1.0,
+        "frazier_max": 1.0
+      },
+      "Sentence 2": {
+        "n_words": 25,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 145,
+        "yngve_mean": 5.8,
+        "yngve_max": 10,
+        "frazier_sum": 56.0,
+        "frazier_mean": 2.24,
+        "frazier_max": 6.0
+      },
+      "Sentence 3": {
+        "n_words": 1,
+        "left_embedding_depth": 0,
+        "center_embedding_depth": 0,
+        "yngve_sum": 0,
+        "yngve_mean": 0.0,
+        "yngve_max": 0,
+        "frazier_sum": 2.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      },
+      "Sentence 4": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 26,
+        "yngve_mean": 2.3636363636363638,
+        "yngve_max": 4,
+        "frazier_sum": 16.5,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.5
+      },
+      "Sentence 5": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 51,
+        "yngve_mean": 2.6842105263157894,
+        "yngve_max": 5,
+        "frazier_sum": 39.0,
+        "frazier_mean": 2.0526315789473686,
+        "frazier_max": 4.5
+      },
+      "Sentence 6": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 23,
+        "yngve_mean": 2.090909090909091,
+        "yngve_max": 3,
+        "frazier_sum": 22.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 4.0
+      },
+      "Sentence 7": {
+        "n_words": 3,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 6,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 8.0,
+        "frazier_mean": 2.6666666666666665,
+        "frazier_max": 3.0
+      }
+    }
+  },
+  "N95985": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 34.5,
+    "Density of Clauses": [
+      4,
+      5
+    ],
+    "Mean Dependency Length": [
+      3.085714285714286,
+      3.0303030303030303
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 33,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 99,
+        "yngve_mean": 3.0,
+        "yngve_max": 5,
+        "frazier_sum": 61.0,
+        "frazier_mean": 1.8484848484848484,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 32,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 93,
+        "yngve_mean": 2.90625,
+        "yngve_max": 6,
+        "frazier_sum": 57.0,
+        "frazier_mean": 1.78125,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N80192": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 12.666666666666666,
+    "Density of Clauses": [
+      2,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.8275862068965516,
+      1.3333333333333333,
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 26,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 108,
+        "yngve_mean": 4.153846153846154,
+        "yngve_max": 9,
+        "frazier_sum": 51.5,
+        "frazier_mean": 1.9807692307692308,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 3,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 5,
+        "yngve_mean": 1.6666666666666667,
+        "yngve_max": 2,
+        "frazier_sum": 5.5,
+        "frazier_mean": 1.8333333333333333,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 3,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 6,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 8.0,
+        "frazier_mean": 2.6666666666666665,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N11553": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 12.5,
+    "Density of Clauses": [
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      2.7058823529411766,
+      2.1666666666666665
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 17,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 46,
+        "yngve_mean": 2.7058823529411766,
+        "yngve_max": 4,
+        "frazier_sum": 24.0,
+        "frazier_mean": 1.411764705882353,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 6,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 12,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 11.5,
+        "frazier_mean": 1.9166666666666667,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N88041": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 39.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.230769230769231
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 38,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 136,
+        "yngve_mean": 3.5789473684210527,
+        "yngve_max": 9,
+        "frazier_sum": 64.0,
+        "frazier_mean": 1.6842105263157894,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N103854": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 32.0,
+    "Density of Clauses": [
+      5,
+      3
+    ],
+    "Mean Dependency Length": [
+      4.425531914893617,
+      3.0625
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 45,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 219,
+        "yngve_mean": 4.866666666666666,
+        "yngve_max": 8,
+        "frazier_sum": 70.5,
+        "frazier_mean": 1.5666666666666667,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 15,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 43,
+        "yngve_mean": 2.8666666666666667,
+        "yngve_max": 5,
+        "frazier_sum": 25.0,
+        "frazier_mean": 1.6666666666666667,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N77997": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.263157894736842
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 59,
+        "yngve_mean": 3.1052631578947367,
+        "yngve_max": 6,
+        "frazier_sum": 37.0,
+        "frazier_mean": 1.9473684210526316,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N47878": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 8.666666666666666,
+    "Density of Clauses": [
+      3,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.111111111111111,
+      2.5454545454545454,
+      2.25
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 8,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 29,
+        "yngve_mean": 3.625,
+        "yngve_max": 5,
+        "frazier_sum": 13.5,
+        "frazier_mean": 1.6875,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 27,
+        "yngve_mean": 2.4545454545454546,
+        "yngve_max": 4,
+        "frazier_sum": 16.0,
+        "frazier_mean": 1.4545454545454546,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 4,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 8,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 6.5,
+        "frazier_mean": 1.625,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N70836": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.2777777777777777
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 51,
+        "yngve_mean": 3.4,
+        "yngve_max": 9,
+        "frazier_sum": 20.5,
+        "frazier_mean": 1.3666666666666667,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N81660": {
+    "Number of Sentences": 6,
+    "Mean Sentence Length (characters)": 14.666666666666666,
+    "Density of Clauses": [
+      2,
+      3,
+      1,
+      2,
+      4,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.125,
+      3.066666666666667,
+      3.35,
+      2.875,
+      2.869565217391304,
+      1.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 8,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 17,
+        "yngve_mean": 2.125,
+        "yngve_max": 3,
+        "frazier_sum": 11.0,
+        "frazier_mean": 1.375,
+        "frazier_max": 2.5
+      },
+      "Sentence 2": {
+        "n_words": 14,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 39,
+        "yngve_mean": 2.7857142857142856,
+        "yngve_max": 5,
+        "frazier_sum": 22.5,
+        "frazier_mean": 1.6071428571428572,
+        "frazier_max": 4.0
+      },
+      "Sentence 3": {
+        "n_words": 17,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 61,
+        "yngve_mean": 3.588235294117647,
+        "yngve_max": 7,
+        "frazier_sum": 23.5,
+        "frazier_mean": 1.3823529411764706,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 15,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 37,
+        "yngve_mean": 2.466666666666667,
+        "yngve_max": 5,
+        "frazier_sum": 24.0,
+        "frazier_mean": 1.6,
+        "frazier_max": 3.5
+      },
+      "Sentence 5": {
+        "n_words": 22,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 67,
+        "yngve_mean": 3.0454545454545454,
+        "yngve_max": 6,
+        "frazier_sum": 37.5,
+        "frazier_mean": 1.7045454545454546,
+        "frazier_max": 3.5
+      },
+      "Sentence 6": {
+        "n_words": 1,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 1,
+        "yngve_mean": 1.0,
+        "yngve_max": 1,
+        "frazier_sum": 3.5,
+        "frazier_mean": 3.5,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N16019": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 26.5,
+    "Density of Clauses": [
+      2,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.8958333333333335,
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 45,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 212,
+        "yngve_mean": 4.711111111111111,
+        "yngve_max": 10,
+        "frazier_sum": 86.0,
+        "frazier_mean": 1.9111111111111112,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 3,
+        "yngve_mean": 1.5,
+        "yngve_max": 2,
+        "frazier_sum": 2.0,
+        "frazier_mean": 1.0,
+        "frazier_max": 1.0
+      }
+    }
+  },
+  "N28981": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 17.5,
+    "Density of Clauses": [
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.5294117647058822,
+      4.0588235294117645
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 46,
+        "yngve_mean": 2.875,
+        "yngve_max": 5,
+        "frazier_sum": 27.5,
+        "frazier_mean": 1.71875,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 17,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 53,
+        "yngve_mean": 3.1176470588235294,
+        "yngve_max": 6,
+        "frazier_sum": 23.0,
+        "frazier_mean": 1.3529411764705883,
+        "frazier_max": 2.5
+      }
+    }
+  },
+  "N124378": {
+    "Number of Sentences": 5,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      1,
+      2,
+      1,
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      3.5625,
+      3.5,
+      3.4347826086956523,
+      3.0476190476190474,
+      3.8421052631578947
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 14,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 69,
+        "yngve_mean": 4.928571428571429,
+        "yngve_max": 10,
+        "frazier_sum": 20.5,
+        "frazier_mean": 1.4642857142857142,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 38,
+        "yngve_mean": 2.375,
+        "yngve_max": 4,
+        "frazier_sum": 25.5,
+        "frazier_mean": 1.59375,
+        "frazier_max": 2.5
+      },
+      "Sentence 3": {
+        "n_words": 21,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 77,
+        "yngve_mean": 3.6666666666666665,
+        "yngve_max": 6,
+        "frazier_sum": 25.5,
+        "frazier_mean": 1.2142857142857142,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 71,
+        "yngve_mean": 3.736842105263158,
+        "yngve_max": 8,
+        "frazier_sum": 34.0,
+        "frazier_mean": 1.7894736842105263,
+        "frazier_max": 3.5
+      },
+      "Sentence 5": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 64,
+        "yngve_mean": 3.5555555555555554,
+        "yngve_max": 6,
+        "frazier_sum": 28.0,
+        "frazier_mean": 1.5555555555555556,
+        "frazier_max": 5.0
+      }
+    }
+  },
+  "N109927": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 10.0,
+    "Density of Clauses": [
+      1,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.6666666666666665,
+      2.142857142857143,
+      3.230769230769231
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 9,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 22,
+        "yngve_mean": 2.4444444444444446,
+        "yngve_max": 4,
+        "frazier_sum": 15.0,
+        "frazier_mean": 1.6666666666666667,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 7,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 22,
+        "yngve_mean": 3.142857142857143,
+        "yngve_max": 5,
+        "frazier_sum": 14.5,
+        "frazier_mean": 2.0714285714285716,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 13,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 38,
+        "yngve_mean": 2.923076923076923,
+        "yngve_max": 6,
+        "frazier_sum": 20.5,
+        "frazier_mean": 1.5769230769230769,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N129262": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 20.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      2.8947368421052633
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 59,
+        "yngve_mean": 3.2777777777777777,
+        "yngve_max": 6,
+        "frazier_sum": 29.0,
+        "frazier_mean": 1.6111111111111112,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N71721": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 21.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.55
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 20,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 55,
+        "yngve_mean": 2.75,
+        "yngve_max": 6,
+        "frazier_sum": 33.0,
+        "frazier_mean": 1.65,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N73220": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 10.5,
+    "Density of Clauses": [
+      2,
+      2
+    ],
+    "Mean Dependency Length": [
+      2.8,
+      2.888888888888889
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 10,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 23,
+        "yngve_mean": 2.3,
+        "yngve_max": 4,
+        "frazier_sum": 20.5,
+        "frazier_mean": 2.05,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 9,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 27,
+        "yngve_mean": 3.0,
+        "yngve_max": 5,
+        "frazier_sum": 16.0,
+        "frazier_mean": 1.7777777777777777,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N115279": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 13.0,
+    "Density of Clauses": [
+      2,
+      2
+    ],
+    "Mean Dependency Length": [
+      2.2666666666666666,
+      2.7
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 51,
+        "yngve_mean": 3.4,
+        "yngve_max": 8,
+        "frazier_sum": 42.0,
+        "frazier_mean": 2.8,
+        "frazier_max": 5.5
+      },
+      "Sentence 2": {
+        "n_words": 10,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 1,
+        "yngve_sum": 24,
+        "yngve_mean": 2.4,
+        "yngve_max": 4,
+        "frazier_sum": 14.0,
+        "frazier_mean": 1.4,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N26087": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 9.0,
+    "Density of Clauses": [
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.7777777777777777,
+      2.2857142857142856
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 9,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 25,
+        "yngve_mean": 2.7777777777777777,
+        "yngve_max": 5,
+        "frazier_sum": 16.0,
+        "frazier_mean": 1.7777777777777777,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 7,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 15,
+        "yngve_mean": 2.142857142857143,
+        "yngve_max": 3,
+        "frazier_sum": 9.5,
+        "frazier_mean": 1.3571428571428572,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N25786": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      1,
+      3
+    ],
+    "Mean Dependency Length": [
+      3.111111111111111,
+      2.8823529411764706
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 7,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 20,
+        "yngve_mean": 2.857142857142857,
+        "yngve_max": 6,
+        "frazier_sum": 12.5,
+        "frazier_mean": 1.7857142857142858,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 43,
+        "yngve_mean": 2.6875,
+        "yngve_max": 5,
+        "frazier_sum": 24.5,
+        "frazier_mean": 1.53125,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N34087": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 45.5,
+    "Density of Clauses": [
+      2,
+      6
+    ],
+    "Mean Dependency Length": [
+      3.2222222222222223,
+      4.197183098591549
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 47,
+        "yngve_mean": 2.611111111111111,
+        "yngve_max": 4,
+        "frazier_sum": 29.0,
+        "frazier_mean": 1.6111111111111112,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 68,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 276,
+        "yngve_mean": 4.0588235294117645,
+        "yngve_max": 10,
+        "frazier_sum": 114.0,
+        "frazier_mean": 1.6764705882352942,
+        "frazier_max": 4.0
+      }
+    }
+  },
+  "N14910": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 11.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      2.2
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 10,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 25,
+        "yngve_mean": 2.5,
+        "yngve_max": 4,
+        "frazier_sum": 17.0,
+        "frazier_mean": 1.7,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N32096": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 20.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.0526315789473686
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 17,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 63,
+        "yngve_mean": 3.7058823529411766,
+        "yngve_max": 7,
+        "frazier_sum": 25.0,
+        "frazier_mean": 1.4705882352941178,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N57371": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 35.0,
+    "Density of Clauses": [
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      4.076923076923077,
+      3.2758620689655173
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 36,
+        "left_embedding_depth": 5,
+        "center_embedding_depth": 0,
+        "yngve_sum": 182,
+        "yngve_mean": 5.055555555555555,
+        "yngve_max": 11,
+        "frazier_sum": 64.5,
+        "frazier_mean": 1.7916666666666667,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 25,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 91,
+        "yngve_mean": 3.64,
+        "yngve_max": 7,
+        "frazier_sum": 40.0,
+        "frazier_mean": 1.6,
+        "frazier_max": 5.0
+      }
+    }
+  },
+  "N101607": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 19.5,
+    "Density of Clauses": [
+      3,
+      2,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      4.185185185185185,
+      2.7,
+      2.736842105263158,
+      2.125
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 24,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 77,
+        "yngve_mean": 3.2083333333333335,
+        "yngve_max": 6,
+        "frazier_sum": 41.0,
+        "frazier_mean": 1.7083333333333333,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 20,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 64,
+        "yngve_mean": 3.2,
+        "yngve_max": 7,
+        "frazier_sum": 50.0,
+        "frazier_mean": 2.5,
+        "frazier_max": 5.5
+      },
+      "Sentence 3": {
+        "n_words": 19,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 50,
+        "yngve_mean": 2.6315789473684212,
+        "yngve_max": 4,
+        "frazier_sum": 31.0,
+        "frazier_mean": 1.631578947368421,
+        "frazier_max": 4.5
+      },
+      "Sentence 4": {
+        "n_words": 8,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 18,
+        "yngve_mean": 2.25,
+        "yngve_max": 4,
+        "frazier_sum": 16.5,
+        "frazier_mean": 2.0625,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N96162": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 27.666666666666668,
+    "Density of Clauses": [
+      4,
+      1,
+      5
+    ],
+    "Mean Dependency Length": [
+      3.375,
+      4.074074074074074,
+      2.8333333333333335
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 24,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 62,
+        "yngve_mean": 2.5833333333333335,
+        "yngve_max": 5,
+        "frazier_sum": 39.0,
+        "frazier_mean": 1.625,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 27,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 85,
+        "yngve_mean": 3.1481481481481484,
+        "yngve_max": 6,
+        "frazier_sum": 43.5,
+        "frazier_mean": 1.6111111111111112,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 28,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 86,
+        "yngve_mean": 3.0714285714285716,
+        "yngve_max": 5,
+        "frazier_sum": 49.5,
+        "frazier_mean": 1.7678571428571428,
+        "frazier_max": 4.5
+      }
+    }
+  },
+  "N103034": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 27.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.4444444444444446
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 26,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 95,
+        "yngve_mean": 3.6538461538461537,
+        "yngve_max": 8,
+        "frazier_sum": 40.5,
+        "frazier_mean": 1.5576923076923077,
+        "frazier_max": 5.0
+      }
+    }
+  },
+  "N80400": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 18.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.588235294117647
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 47,
+        "yngve_mean": 3.1333333333333333,
+        "yngve_max": 7,
+        "frazier_sum": 21.5,
+        "frazier_mean": 1.4333333333333333,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N52639": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 4.5,
+    "Density of Clauses": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.2,
+      1.0,
+      1.0,
+      1.6666666666666667
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 5,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 9,
+        "yngve_mean": 1.8,
+        "yngve_max": 2,
+        "frazier_sum": 9.0,
+        "frazier_mean": 1.8,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 3,
+        "yngve_mean": 1.5,
+        "yngve_max": 2,
+        "frazier_sum": 4.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      },
+      "Sentence 3": {
+        "n_words": 1,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 1,
+        "yngve_mean": 1.0,
+        "yngve_max": 1,
+        "frazier_sum": 2.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      },
+      "Sentence 4": {
+        "n_words": 6,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 12,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 12.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N107094": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 16.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.8666666666666667
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 44,
+        "yngve_mean": 2.933333333333333,
+        "yngve_max": 5,
+        "frazier_sum": 19.0,
+        "frazier_mean": 1.2666666666666666,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N31556": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 24.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      3.0833333333333335
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 23,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 85,
+        "yngve_mean": 3.6956521739130435,
+        "yngve_max": 7,
+        "frazier_sum": 34.5,
+        "frazier_mean": 1.5,
+        "frazier_max": 4.0
+      }
+    }
+  },
+  "N127107": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 15.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      2.7142857142857144
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 14,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 32,
+        "yngve_mean": 2.2857142857142856,
+        "yngve_max": 4,
+        "frazier_sum": 23.5,
+        "frazier_mean": 1.6785714285714286,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N113202": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 20.0,
+    "Density of Clauses": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.9696969696969697,
+      2.4545454545454546,
+      3.2962962962962963,
+      1.4
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 33,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 103,
+        "yngve_mean": 3.121212121212121,
+        "yngve_max": 6,
+        "frazier_sum": 49.0,
+        "frazier_mean": 1.4848484848484849,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 38,
+        "yngve_mean": 3.4545454545454546,
+        "yngve_max": 6,
+        "frazier_sum": 17.5,
+        "frazier_mean": 1.5909090909090908,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 26,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 119,
+        "yngve_mean": 4.576923076923077,
+        "yngve_max": 9,
+        "frazier_sum": 54.0,
+        "frazier_mean": 2.076923076923077,
+        "frazier_max": 5.0
+      },
+      "Sentence 4": {
+        "n_words": 5,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 10,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 10.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N72702": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 18.25,
+    "Density of Clauses": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.8666666666666667,
+      3.303030303030303,
+      2.2142857142857144,
+      2.9
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 35,
+        "yngve_mean": 2.3333333333333335,
+        "yngve_max": 3,
+        "frazier_sum": 22.0,
+        "frazier_mean": 1.4666666666666666,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 32,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 112,
+        "yngve_mean": 3.5,
+        "yngve_max": 6,
+        "frazier_sum": 44.5,
+        "frazier_mean": 1.390625,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 14,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 54,
+        "yngve_mean": 3.857142857142857,
+        "yngve_max": 7,
+        "frazier_sum": 22.0,
+        "frazier_mean": 1.5714285714285714,
+        "frazier_max": 4.5
+      },
+      "Sentence 4": {
+        "n_words": 10,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 22,
+        "yngve_mean": 2.2,
+        "yngve_max": 4,
+        "frazier_sum": 15.5,
+        "frazier_mean": 1.55,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N119721": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      3.2142857142857144
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 14,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 37,
+        "yngve_mean": 2.642857142857143,
+        "yngve_max": 5,
+        "frazier_sum": 20.0,
+        "frazier_mean": 1.4285714285714286,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N16515": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      4.611111111111111
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 45,
+        "yngve_mean": 2.8125,
+        "yngve_max": 4,
+        "frazier_sum": 23.0,
+        "frazier_mean": 1.4375,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N30239": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 27.0,
+    "Density of Clauses": [
+      3
+    ],
+    "Mean Dependency Length": [
+      2.769230769230769
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 25,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 68,
+        "yngve_mean": 2.72,
+        "yngve_max": 5,
+        "frazier_sum": 48.5,
+        "frazier_mean": 1.94,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N104782": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 31.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      3.8666666666666667
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 28,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 130,
+        "yngve_mean": 4.642857142857143,
+        "yngve_max": 9,
+        "frazier_sum": 47.0,
+        "frazier_mean": 1.6785714285714286,
+        "frazier_max": 6.0
+      }
+    }
+  },
+  "N119722": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 26.333333333333332,
+    "Density of Clauses": [
+      4,
+      5,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.6341463414634148,
+      4.363636363636363,
+      1.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 40,
+        "left_embedding_depth": 5,
+        "center_embedding_depth": 1,
+        "yngve_sum": 238,
+        "yngve_mean": 5.95,
+        "yngve_max": 10,
+        "frazier_sum": 67.0,
+        "frazier_mean": 1.675,
+        "frazier_max": 5.0
+      },
+      "Sentence 2": {
+        "n_words": 32,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 183,
+        "yngve_mean": 5.71875,
+        "yngve_max": 10,
+        "frazier_sum": 51.5,
+        "frazier_mean": 1.609375,
+        "frazier_max": 6.0
+      },
+      "Sentence 3": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 3,
+        "yngve_mean": 1.5,
+        "yngve_max": 2,
+        "frazier_sum": 4.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 2.0
+      }
+    }
+  },
+  "N79307": {
+    "Number of Sentences": 5,
+    "Mean Sentence Length (characters)": 17.0,
+    "Density of Clauses": [
+      2,
+      4,
+      2,
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.806451612903226,
+      2.9523809523809526,
+      2.823529411764706,
+      3.727272727272727,
+      1.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 30,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 126,
+        "yngve_mean": 4.2,
+        "yngve_max": 8,
+        "frazier_sum": 55.0,
+        "frazier_mean": 1.8333333333333333,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 21,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 49,
+        "yngve_mean": 2.3333333333333335,
+        "yngve_max": 4,
+        "frazier_sum": 36.0,
+        "frazier_mean": 1.7142857142857142,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 16,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 47,
+        "yngve_mean": 2.9375,
+        "yngve_max": 6,
+        "frazier_sum": 28.0,
+        "frazier_mean": 1.75,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 8,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 1,
+        "yngve_sum": 23,
+        "yngve_mean": 2.875,
+        "yngve_max": 4,
+        "frazier_sum": 13.5,
+        "frazier_mean": 1.6875,
+        "frazier_max": 5.0
+      },
+      "Sentence 5": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 2,
+        "yngve_mean": 1.0,
+        "yngve_max": 1,
+        "frazier_sum": 4.5,
+        "frazier_mean": 2.25,
+        "frazier_max": 2.5
+      }
+    }
+  },
+  "N78657": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 15.5,
+    "Density of Clauses": [
+      2,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.1875,
+      3.0
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 48,
+        "yngve_mean": 3.2,
+        "yngve_max": 5,
+        "frazier_sum": 24.5,
+        "frazier_mean": 1.6333333333333333,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 32,
+        "yngve_mean": 2.909090909090909,
+        "yngve_max": 7,
+        "frazier_sum": 16.5,
+        "frazier_mean": 1.5,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N65604": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 13.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      2.8333333333333335
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 11,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 35,
+        "yngve_mean": 3.1818181818181817,
+        "yngve_max": 5,
+        "frazier_sum": 18.5,
+        "frazier_mean": 1.6818181818181819,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N55000": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      1
+    ],
+    "Mean Dependency Length": [
+      2.769230769230769
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 12,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 36,
+        "yngve_mean": 3.0,
+        "yngve_max": 6,
+        "frazier_sum": 19.0,
+        "frazier_mean": 1.5833333333333333,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N51814": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 19.0,
+    "Density of Clauses": [
+      1,
+      2
+    ],
+    "Mean Dependency Length": [
+      4.05,
+      2.625
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 79,
+        "yngve_mean": 4.388888888888889,
+        "yngve_max": 9,
+        "frazier_sum": 39.5,
+        "frazier_mean": 2.1944444444444446,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 16,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 43,
+        "yngve_mean": 2.6875,
+        "yngve_max": 5,
+        "frazier_sum": 28.5,
+        "frazier_mean": 1.78125,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N80683": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 17.0,
+    "Density of Clauses": [
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.933333333333333,
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 30,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 1,
+        "yngve_sum": 94,
+        "yngve_mean": 3.1333333333333333,
+        "yngve_max": 6,
+        "frazier_sum": 55.0,
+        "frazier_mean": 1.8333333333333333,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 2,
+        "left_embedding_depth": 1,
+        "center_embedding_depth": 0,
+        "yngve_sum": 3,
+        "yngve_mean": 1.5,
+        "yngve_max": 2,
+        "frazier_sum": 2.0,
+        "frazier_mean": 1.0,
+        "frazier_max": 1.0
+      }
+    }
+  },
+  "N120230": {
+    "Number of Sentences": 1,
+    "Mean Sentence Length (characters)": 22.0,
+    "Density of Clauses": [
+      2
+    ],
+    "Mean Dependency Length": [
+      2.8095238095238093
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 18,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 57,
+        "yngve_mean": 3.1666666666666665,
+        "yngve_max": 7,
+        "frazier_sum": 27.5,
+        "frazier_mean": 1.5277777777777777,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N104453": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 14.0,
+    "Density of Clauses": [
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      3.8260869565217392,
+      1.3333333333333333
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 22,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 77,
+        "yngve_mean": 3.5,
+        "yngve_max": 6,
+        "frazier_sum": 36.5,
+        "frazier_mean": 1.6590909090909092,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 3,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 6,
+        "yngve_mean": 2.0,
+        "yngve_max": 3,
+        "frazier_sum": 8.0,
+        "frazier_mean": 2.6666666666666665,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N101712": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 21.5,
+    "Density of Clauses": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "Mean Dependency Length": [
+      2.6153846153846154,
+      3.2916666666666665,
+      3.0416666666666665,
+      2.727272727272727
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 12,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 39,
+        "yngve_mean": 3.25,
+        "yngve_max": 5,
+        "frazier_sum": 15.5,
+        "frazier_mean": 1.2916666666666667,
+        "frazier_max": 3.5
+      },
+      "Sentence 2": {
+        "n_words": 23,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 86,
+        "yngve_mean": 3.739130434782609,
+        "yngve_max": 7,
+        "frazier_sum": 49.0,
+        "frazier_mean": 2.130434782608696,
+        "frazier_max": 4.5
+      },
+      "Sentence 3": {
+        "n_words": 22,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 84,
+        "yngve_mean": 3.8181818181818183,
+        "yngve_max": 6,
+        "frazier_sum": 31.0,
+        "frazier_mean": 1.4090909090909092,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 21,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 0,
+        "yngve_sum": 77,
+        "yngve_mean": 3.6666666666666665,
+        "yngve_max": 7,
+        "frazier_sum": 41.0,
+        "frazier_mean": 1.9523809523809523,
+        "frazier_max": 6.5
+      }
+    }
+  },
+  "N111575": {
+    "Number of Sentences": 3,
+    "Mean Sentence Length (characters)": 24.666666666666668,
+    "Density of Clauses": [
+      3,
+      3,
+      3
+    ],
+    "Mean Dependency Length": [
+      2.95,
+      3.7241379310344827,
+      3.0454545454545454
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 20,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 49,
+        "yngve_mean": 2.45,
+        "yngve_max": 4,
+        "frazier_sum": 39.0,
+        "frazier_mean": 1.95,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 29,
+        "left_embedding_depth": 4,
+        "center_embedding_depth": 1,
+        "yngve_sum": 102,
+        "yngve_mean": 3.5172413793103448,
+        "yngve_max": 9,
+        "frazier_sum": 58.0,
+        "frazier_mean": 2.0,
+        "frazier_max": 4.5
+      },
+      "Sentence 3": {
+        "n_words": 22,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 56,
+        "yngve_mean": 2.5454545454545454,
+        "yngve_max": 4,
+        "frazier_sum": 30.5,
+        "frazier_mean": 1.3863636363636365,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N50803": {
+    "Number of Sentences": 4,
+    "Mean Sentence Length (characters)": 23.0,
+    "Density of Clauses": [
+      2,
+      2,
+      1,
+      3
+    ],
+    "Mean Dependency Length": [
+      2.6923076923076925,
+      3.9642857142857144,
+      3.260869565217391,
+      3.0416666666666665
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 12,
+        "left_embedding_depth": 3,
+        "center_embedding_depth": 0,
+        "yngve_sum": 36,
+        "yngve_mean": 3.0,
+        "yngve_max": 5,
+        "frazier_sum": 26.5,
+        "frazier_mean": 2.2083333333333335,
+        "frazier_max": 4.5
+      },
+      "Sentence 2": {
+        "n_words": 25,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 105,
+        "yngve_mean": 4.2,
+        "yngve_max": 8,
+        "frazier_sum": 36.0,
+        "frazier_mean": 1.44,
+        "frazier_max": 3.5
+      },
+      "Sentence 3": {
+        "n_words": 22,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 76,
+        "yngve_mean": 3.4545454545454546,
+        "yngve_max": 5,
+        "frazier_sum": 33.5,
+        "frazier_mean": 1.5227272727272727,
+        "frazier_max": 3.5
+      },
+      "Sentence 4": {
+        "n_words": 20,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 51,
+        "yngve_mean": 2.55,
+        "yngve_max": 5,
+        "frazier_sum": 41.0,
+        "frazier_mean": 2.05,
+        "frazier_max": 3.5
+      }
+    }
+  },
+  "N39120": {
+    "Number of Sentences": 2,
+    "Mean Sentence Length (characters)": 13.0,
+    "Density of Clauses": [
+      3,
+      1
+    ],
+    "Mean Dependency Length": [
+      2.7333333333333334,
+      2.4
+    ],
+    "sentence_features": {
+      "Sentence 1": {
+        "n_words": 15,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 35,
+        "yngve_mean": 2.3333333333333335,
+        "yngve_max": 4,
+        "frazier_sum": 30.5,
+        "frazier_mean": 2.033333333333333,
+        "frazier_max": 4.0
+      },
+      "Sentence 2": {
+        "n_words": 9,
+        "left_embedding_depth": 2,
+        "center_embedding_depth": 0,
+        "yngve_sum": 29,
+        "yngve_mean": 3.2222222222222223,
+        "yngve_max": 6,
+        "frazier_sum": 11.5,
+        "frazier_mean": 1.2777777777777777,
+        "frazier_max": 3.5
+      }
+    }
+  }
+}
