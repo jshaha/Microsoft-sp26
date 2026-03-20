@@ -364,6 +364,6 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore", category=UserWarning)
     import multiprocessing
     multiprocessing.freeze_support()
-    features = parallel_extract_features(test_news_df[:100], max_workers=2)
+    features = parallel_extract_features(test_news_df[:50], max_workers=2)
     json.dump(features, open("small_test_features.json", "w"), indent=2)
     # pprint(features['N47214'])

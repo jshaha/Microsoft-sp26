@@ -1,0 +1,10 @@
+---------------- Results for model: OneVsRestClassifier: ComplementNB()  -----------------------
+Best params: {'clf__estimator__alpha': 0.8, 'tfidf__max_df': 0.9, 'tfidf__min_df': 2, 'tfidf__ngram_range': (1, 1), 'tfidf__sublinear_tf': True}
+Best CV Accuracy: 0.5615839339040489
+ 50%|█████     | 1/2 [03:18<03:18, 198.63s/it]
+Test accuracy: 0.6036004263539585
+---------------- Results for model: OneVsRestClassifier: LinearSVC() -----------------------
+Best params: {'clf__estimator__C': 1.2, 'tfidf__max_df': 0.9, 'tfidf__min_df': 1, 'tfidf__ngram_range': (1, 2), 'tfidf__sublinear_tf': True}
+Best CV Accuracy: 0.5819318702591568
+100%|██████████| 2/2 [10:59<00:00, 329.66s/it]
+Test accuracy: 0.6238547340946196

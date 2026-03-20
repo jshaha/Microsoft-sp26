@@ -1,4 +1,14 @@
-batchalign
+scikit-learn
+requests
 bs4
+re
+tqdm
+os
 pandas
 stanza
+pprint
+math
+dataclasses
+typing
+concurrent.futures
+numpy
