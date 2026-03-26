@@ -13,46 +13,46 @@ for category in set(articles['category']):
     category_dfs[category] = articles[articles['category'] == category][:3]
 
 entity_affect = pd.read_json("entity_affect_val_normalized.jsonl", lines=True)
-pprint(len(entity_affect['entities'].iloc[0]))
+#pprint(len(entity_affect['entities'].iloc[0]))
 
-# st.set_page_config(page_title="CLAN Use Ideation", layout="wide")
+st.set_page_config(page_title="CLAN Use Ideation", layout="wide")
 
-# st.title("CLAN Use Ideation")
+st.title("CLAN Use Ideation")
 
-# st.markdown("""
-#     <style>
-#         .scroll-box {
-#             height: 400px;
-#             overflow-y: auto;
-#             padding: 12px;
-#             border: 1px solid #d0d0d0;
-#             border-radius: 10px;
-#             background-color: #f8f9fa;
-#             color: black;
-#         }
+st.markdown("""
+    <style>
+        .scroll-box {
+            height: 400px;
+            overflow-y: auto;
+            padding: 12px;
+            border: 1px solid #d0d0d0;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            color: black;
+        }
 
-#         .scroll-item {
-#             border: 2px solid black;
-#             border-radius: 6px;
-#             padding: 8px;
-#             margin-bottom: 8px;
-#             background-color: white;
-#         }
+        .scroll-item {
+            border: 2px solid black;
+            border-radius: 6px;
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: white;
+        }
 
-#         .item-title {
-#             font-weight: bold;
-#             margin-bottom: 4px;
-#             word-wrap: break-word;
-#         }
+        .item-title {
+            font-weight: bold;
+            margin-bottom: 4px;
+            word-wrap: break-word;
+        }
 
-#         .item-abstract {
-#             color: #555;
-#             font-size: 0.9em;
-#         }
-#     </style>""", 
-# unsafe_allow_html=True)
+        .item-abstract {
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>""", 
+unsafe_allow_html=True)
 
-# col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4 = st.columns(4)
 
 def render_chip_column(items, header, key):
     html_content = f"""
@@ -154,28 +154,68 @@ def render_chip_column(items, header, key):
     </style>
     </head>
     <body>
-        <div class="header">{html.escape(header)}</div>
         <div class="scroll-box">
     """
 
-    for i, item in enumerate(items):
-        title = html.escape(item["title"])
-        abstract = html.escape(item["abstract"])
+    def entity_style(sentiment, arousal):
+        try:
+            arousal = float(arousal)
+        except (TypeError, ValueError):
+            arousal = 0.3
 
-        entities = item.get("entities", [])
+        arousal = max(0.0, min(1.0, arousal))
+
+        # minimum visibility + stronger intensity as arousal increases
+        alpha = 0.15 + 0.75 * arousal
+
+        sentiment = (sentiment or "neutral").lower()
+
+        if sentiment == "positive":
+            bg = f"rgba(0, 180, 0, {alpha})"
+            text = "#000000"
+        elif sentiment == "negative":
+            bg = f"rgba(220, 0, 0, {alpha})"
+            text = "#000000"
+        else:
+            bg = f"rgba(128, 128, 128, {alpha})"
+            text = "#000000"
+
+        return bg, text
+
+    for i, item in enumerate(items[['article', 'entities']].values):
+        title = html.escape(" ".join(item[0].split(" ")[:8]))
+        abstract = html.escape(item[0])
+
+        entities = item[1]
         entity_html = ""
 
         for ent in entities:
             ent_text = html.escape(str(ent.get("text", "")))
             ent_type = html.escape(str(ent.get("type", "")))
             ent_sentiment = html.escape(str(ent.get("sentiment", "")))
+            ent_arousal = ent.get("arousal", 0.3)
+            ent_evidence = html.escape(str(ent.get("evidence", "")))
+            ent_valence = html.escape(str(ent.get("valence", "")))
 
-            chip_label = f"""
-                <span class="entity-chip" title="type: {ent_type}, sentiment: {ent_sentiment}, evidence: {html.escape(str(ent.get('evidence', '')))}">
-                    <span class="entity-text">{ent_text}</span>
-                </span>
-                """
-            entity_html += chip_label
+            bg_color, text_color = entity_style(ent_sentiment, ent_arousal)
+
+            tooltip_text = (
+                f"type: {ent_type} | "
+                f"sentiment: {html.escape(ent_sentiment)} | "
+                f"arousal: {html.escape(str(ent_arousal))} | "
+                f"valence: {ent_valence} | "
+                f"evidence: {ent_evidence}"
+            )
+
+            entity_html += f"""
+            <span
+                class="entity-chip"
+                style="background-color: {bg_color}; color: {text_color};"
+                title="{tooltip_text}"
+            >
+                {ent_text}
+            </span>
+            """
 
         html_content += f"""
         <div class="scroll-item">
@@ -193,130 +233,130 @@ def render_chip_column(items, header, key):
 
     components.html(html_content, height=560, scrolling=False)
 
-# def render_column(items, header, key):
-#     html_content = f"""
-#     <html>
-#     <head>
-#     <style>
-#         body {{
-#             margin: 0;
-#             font-family: Arial, sans-serif;
-#         }}
+def render_column(items, header, key):
+    html_content = f"""
+    <html>
+    <head>
+    <style>
+        body {{
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }}
 
-#         .header {{
-#             font-size: 20px;
-#             font-weight: bold;
-#             margin-bottom: 10px;
-#         }}
+        .header {{
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }}
 
-#         .scroll-box {{
-#             height: 450px;
-#             overflow-y: auto;
-#             padding: 6px;
-#             background-color: #f8f9fa;
-#             border: 1px solid #ccc;
-#             border-radius: 8px;
-#         }}
+        .scroll-box {{
+            height: 450px;
+            overflow-y: auto;
+            padding: 6px;
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }}
 
-#         .scroll-item {{
-#             border: 2px solid black;
-#             border-radius: 8px;
-#             padding: 10px;
-#             margin-bottom: 10px;
-#             background-color: white;
-#             cursor: pointer;
-#             transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-#         }}
+        .scroll-item {{
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: white;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+        }}
 
-#         .scroll-item:hover {{
-#             transform: translateY(-2px);
-#             box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-#             background-color: #f3f3f3;
-#         }}
+        .scroll-item:hover {{
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            background-color: #f3f3f3;
+        }}
 
-#         .item-title {{
-#             font-weight: bold;
-#             margin-bottom: 6px;
-#             word-wrap: break-word;
-#         }}
+        .item-title {{
+            font-weight: bold;
+            margin-bottom: 6px;
+            word-wrap: break-word;
+        }}
 
-#         .item-abstract {{
-#             color: #555;
-#             font-size: 0.92em;
-#         }}
+        .item-abstract {{
+            color: #555;
+            font-size: 0.92em;
+        }}
 
-#         .item-full-abstract {{
-#             display: none;
-#             margin-top: 8px;
-#             color: #222;
-#             font-size: 0.92em;
-#             border-top: 1px solid #ddd;
-#             padding-top: 8px;
-#             word-wrap: break-word;
-#         }}
-#     </style>
-#     <script>
-#         function toggleAbstract(id) {{
-#             const el = document.getElementById(id);
-#             if (el.style.display === "block") {{
-#                 el.style.display = "none";
-#             }} else {{
-#                 el.style.display = "block";
-#             }}
-#         }}
-#     </script>
-#     </head>
-#     <body>
-#         <div class="header">{html.escape(header)}</div>
-#         <div class="scroll-box">
-#     """
+        .item-full-abstract {{
+            display: none;
+            margin-top: 8px;
+            color: #222;
+            font-size: 0.92em;
+            border-top: 1px solid #ddd;
+            padding-top: 8px;
+            word-wrap: break-word;
+        }}
+    </style>
+    <script>
+        function toggleAbstract(id) {{
+            const el = document.getElementById(id);
+            if (el.style.display === "block") {{
+                el.style.display = "none";
+            }} else {{
+                el.style.display = "block";
+            }}
+        }}
+    </script>
+    </head>
+    <body>
+        <div class="header">{html.escape(header)}</div>
+        <div class="scroll-box">
+    """
 
-#     for i, item in enumerate(items.loc[:, ['title', 'abstract']].values):
-#         # print(item)
-#         title = html.escape(item[0])
-#         abstract = html.escape(item[1])
-#         preview = abstract[:20] + "..." if len(abstract) > 20 else abstract
+    for i, item in enumerate(items.loc[:, ['title', 'abstract']].values):
+        # print(item)
+        title = html.escape(item[0])
+        abstract = html.escape(item[1])
+        preview = abstract[:20] + "..." if len(abstract) > 20 else abstract
 
-#         html_content += f"""
-#         <div class='scroll-item' onclick="toggleAbstract('{key}-abstract-{i}')">
-#             <div class='item-title'>{title}</div>
-#             <div class='item-abstract'>{preview}</div>
-#             <div class='item-full-abstract' id='{key}-abstract-{i}'>{abstract}</div>
-#         </div>
-#         """
+        html_content += f"""
+        <div class='scroll-item' onclick="toggleAbstract('{key}-abstract-{i}')">
+            <div class='item-title'>{title}</div>
+            <div class='item-abstract'>{preview}</div>
+            <div class='item-full-abstract' id='{key}-abstract-{i}'>{abstract}</div>
+        </div>
+        """
 
-#     html_content += """
-#         </div>
-#     </body>
-#     </html>
-#     """
+    html_content += """
+        </div>
+    </body>
+    </html>
+    """
 
-#     components.html(html_content, height=520, scrolling=False)
+    components.html(html_content, height=520, scrolling=False)
 
-# categories = collections.deque(["Finance", "Entertainment", "News", "Sports"])
+categories = collections.deque(["Finance", "Entertainment", "News", "Sports"])
 
 # # category = categories.popleft().lower()
-# # for i, item in enumerate(category_dfs[category].loc[:, ['title', 'abstract']].values):
-# #     print(i, item[0], item[1])
-# # print(category_dfs[category]['title'].iloc[1] + " - " + category_dfs[category]['abstract'].iloc[1])
+# for i, item in enumerate(entity_affect[['article', 'entities']].values):
+#     print(i, item[0], item[1])
+# print(category_dfs[category]['title'].iloc[1] + " - " + category_dfs[category]['abstract'].iloc[1])
 
-# with col1:
-#     category = categories.popleft()
-#     st.subheader(f"{category}")
-#     #print(category_dfs[category.lower()]['title'].iloc[1] + " - " + category_dfs[category.lower()]['abstract'].iloc[1])
-#     render_column(category_dfs[category.lower()], category, "col1")
+with col1:
+    category = categories.popleft()
+    st.subheader(f"{category}")
+    #print(category_dfs[category.lower()]['title'].iloc[1] + " - " + category_dfs[category.lower()]['abstract'].iloc[1])
+    render_chip_column(entity_affect, category, "col1")
 
-# with col2:
-#     category = categories.popleft()
-#     st.subheader(f"{category}")
-#     render_column(category_dfs[category.lower()], category, "col2")
+with col2:
+    category = categories.popleft()
+    st.subheader(f"{category}")
+    render_column(category_dfs[category.lower()], category, "col2")
 
-# with col3:
-#     category = categories.popleft()
-#     st.subheader(f"{category}")
-#     render_column(category_dfs[category.lower()], category, "col3")
+with col3:
+    category = categories.popleft()
+    st.subheader(f"{category}")
+    render_column(category_dfs[category.lower()], category, "col3")
 
-# with col4:
-#     category = categories.popleft()
-#     st.subheader(f"{category}")
-#     render_column(category_dfs[category.lower()], category, "col4")
+with col4:
+    category = categories.popleft()
+    st.subheader(f"{category}")
+    render_column(category_dfs[category.lower()], category, "col4")
