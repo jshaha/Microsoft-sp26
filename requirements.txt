@@ -1,14 +1,28 @@
-scikit-learn
-requests
-bs4
-re
-tqdm
-os
-pandas
-stanza
-pprint
-math
-dataclasses
-typing
-concurrent.futures
+# ── Core ML ───────────────────────────────────────────────────────────────
+torch>=2.1
+transformers>=4.40
+peft>=0.10
+accelerate>=0.29
 numpy
+
+# ── Data / utilities ──────────────────────────────────────────────────────
+scikit-learn
+pandas
+tqdm
+datasets
+
+# ── Pipeline backend ──────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic>=2.0
+
+# ── CLAN features (optional) ──────────────────────────────────────────────
+stanza
+
+# ── Entity Extraction UX (optional) ───────────────────────────────────────
+streamlit
+
+# ── MSN Scraper (optional) ────────────────────────────────────────────────
+requests
+beautifulsoup4
+selenium
