@@ -1,7 +1,21 @@
-import { biasData } from "../data";
+import { useEffect, useState } from "react";
+import api from "../api";
+import { useUser } from "../UserContext";
+import { biasData as FALLBACK } from "../data";
 
 export default function SourceBias() {
-  const total = biasData.left.sources + biasData.center.sources + biasData.right.sources;
+  const { userId } = useUser();
+  const [bias, setBias] = useState(FALLBACK);
+ 
+  useEffect(() => {
+    let alive = true;
+    api.bias(userId)
+      .then(r => { if (alive && r) setBias(r); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, [userId]);
+ 
+  const total = Math.max(1, bias.left.sources + bias.center.sources + bias.right.sources);
 
   return (
     <div style={s.card}>
@@ -10,23 +24,21 @@ export default function SourceBias() {
         <div style={s.subtitle}>Political leaning of your sources</div>
       </div>
 
-      {/* Arc — left is blue, right is red */}
       <div style={s.gaugeWrap}>
         <svg width="160" height="90" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="biasGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#0067b8" />
+              <stop offset="0%"  stopColor="#0067b8" />
               <stop offset="50%" stopColor="#9b59b6" />
               <stop offset="100%" stopColor="#c0392b" />
             </linearGradient>
           </defs>
           <path d="M16 82 A64 64 0 0 1 144 82" fill="none" stroke="#eee" strokeWidth="10" strokeLinecap="round" />
           <path d="M16 82 A64 64 0 0 1 144 82" fill="none" stroke="url(#biasGrad)" strokeWidth="10" strokeLinecap="round" />
-          {/* needle */}
           <line
             x1="80" y1="82"
-            x2={80 + 46 * Math.cos(Math.PI - (biasData.left.sources / total) * Math.PI)}
-            y2={82 - 46 * Math.sin((biasData.left.sources / total) * Math.PI)}
+            x2={80 + 46 * Math.cos(Math.PI - (bias.left.sources / total) * Math.PI)}
+            y2={82 - 46 * Math.sin((bias.left.sources / total) * Math.PI)}
             stroke="#1a1a1a" strokeWidth="2" strokeLinecap="round"
           />
           <circle cx="80" cy="82" r="4" fill="#1a1a1a" />
@@ -35,9 +47,9 @@ export default function SourceBias() {
 
       <div style={s.rows}>
         {[
-          { label: "Left", value: biasData.left.sources, color: "#0067b8", bg: "#e8f0fe" },
-          { label: "Center", value: biasData.center.sources, color: "#9b59b6", bg: "#f5effe" },
-          { label: "Right", value: biasData.right.sources, color: "#c0392b", bg: "#fdeeed" },
+          { label: "Left",   value: bias.left.sources,   color: "#0067b8" },
+          { label: "Center", value: bias.center.sources, color: "#9b59b6" },
+          { label: "Right",  value: bias.right.sources,  color: "#c0392b" },
         ].map(r => (
           <div key={r.label} style={s.row}>
             <div style={{ ...s.rowDot, background: r.color }} />

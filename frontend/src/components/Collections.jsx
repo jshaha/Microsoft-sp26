@@ -1,24 +1,50 @@
-import { useState } from "react";
-import { collections } from "../data";
+import { useEffect, useMemo, useState } from "react";
 import { BookOpen, Share2, FolderOpen } from "lucide-react";
-
-const weeklyData = [
-  { week: "Mar 24", read: 18 },
-  { week: "Mar 31", read: 22 },
-  { week: "Apr 7",  read: 20 },
-  { week: "Apr 14", read: 25 },
-];
-
-const maxRead = Math.max(...weeklyData.map(d => d.read));
-const allTopics = ["All", ...new Set(collections.map(c => c.topic))];
+import api from "../api";
+import { useUser } from "../UserContext";
+import { collections as FALLBACK_COLLS, statsData as FALLBACK_STATS } from "../data";
 
 export default function Collections() {
+  const { userId } = useUser();
   const [tab, setTab] = useState("collections");
   const [activeFilter, setActiveFilter] = useState("All");
-
+  const [collections, setCollections] = useState(FALLBACK_COLLS);
+  const [stats, setStats] = useState(null);
+ 
+  useEffect(() => {
+    let alive = true;
+    api.listCollections(userId)
+      .then(r => { if (alive && r?.collections?.length) setCollections(r.collections); })
+      .catch(() => {});
+    api.stats(userId)
+      .then(r => { if (alive && r) setStats(r); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, [userId]);
+ 
+  const allTopics = useMemo(
+    () => ["All", ...new Set(collections.map(c => c.topic))],
+    [collections],
+  );
   const filtered = activeFilter === "All"
     ? collections
     : collections.filter(c => c.topic === activeFilter);
+  
+  const readThisWeek   = stats?.articles_read_this_week   ?? FALLBACK_STATS.articlesReadThisWeek;
+  const sharedThisWeek = stats?.articles_shared_this_week ?? 6;
+  const readTotal      = stats?.articles_read_total       ?? FALLBACK_STATS.articlesReadTotal;
+  const sharedTotal    = stats?.articles_shared_total     ?? 40;
+  const weekDelta      = stats?.week_delta_pct ?? 23;
+  const weekly = stats?.weekly_chart?.length
+    ? stats.weekly_chart
+    : [
+        { week: "Mar 24", read: 18 },
+        { week: "Mar 31", read: 22 },
+        { week: "Apr 7",  read: 20 },
+        { week: "Apr 14", read: 25 },
+      ];
+  const maxRead = Math.max(1, ...weekly.map(d => d.read));
+   
 
   return (
     <div style={s.card}>
@@ -55,38 +81,38 @@ export default function Collections() {
               </div>
             ))}
           </div>
-          <div style={s.moreBtn}>+ 5 more collections</div>
+          <div style={s.moreBtn}>+ {Math.max(0, collections.length - filtered.length)} more collections</div>
         </div>
       )}
 
       {tab === "stats" && (
         <div style={s.stats}>
-          <div style={s.delta}>+23% from last week</div>
+          <div style={s.delta}>{weekDelta >= 0 ? "+" : ""}{weekDelta}% from last week</div>
           <div style={s.statsGrid}>
             <div style={s.statBox}>
               <div style={{ ...s.statIcon, background: "#e8f0fe" }}><BookOpen size={13} color="#0067b8" /></div>
               <div style={s.statLabel}>Read this week</div>
-              <div style={s.statVal}>25</div>
+              <div style={s.statVal}>{readThisWeek}</div>
             </div>
             <div style={s.statBox}>
               <div style={{ ...s.statIcon, background: "#fdf0e8" }}><Share2 size={13} color="#e07b39" /></div>
               <div style={s.statLabel}>Shared this week</div>
-              <div style={s.statVal}>6</div>
+              <div style={s.statVal}>{sharedThisWeek}</div>
             </div>
             <div style={s.statBox}>
               <div style={{ ...s.statIcon, background: "#e8f0fe" }}><BookOpen size={13} color="#0067b8" /></div>
               <div style={s.statLabel}>Read total</div>
-              <div style={s.statVal}>236</div>
+              <div style={s.statVal}>{readTotal}</div>
             </div>
             <div style={s.statBox}>
               <div style={{ ...s.statIcon, background: "#fdf0e8" }}><Share2 size={13} color="#e07b39" /></div>
               <div style={s.statLabel}>Shared total</div>
-              <div style={s.statVal}>40</div>
+              <div style={s.statVal}>{sharedTotal}</div>
             </div>
           </div>
           <div style={s.chartLabel}>Articles read per week</div>
           <div style={s.chart}>
-            {weeklyData.map((d, i) => (
+            {weekly.map((d, i) => (
               <div key={i} style={s.barCol}>
                 <div style={s.barWrap}>
                   <div style={{ ...s.bar, height: `${(d.read / maxRead) * 100}%` }} />

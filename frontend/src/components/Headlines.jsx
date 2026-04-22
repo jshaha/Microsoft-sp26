@@ -1,52 +1,44 @@
-const headlines = [
-  {
-    id: 1,
-    text: "DOJ moves to dismiss Jan. 6 convictions against 12 former Proud Boys and Oath Keepers",
-    publisher: "CBS News",
-    time: "APR 15, 2026",
-    url: "https://www.cbsnews.com/news/doj-moves-dismiss-jan-6-convictions-proud-boys-oath-keepers-seditious-conspiracy/",
-    publisherColor: "#fff",
-    publisherBg: "#003876",
-    publisherFont: "Arial, sans-serif",
-  },
-  {
-    id: 2,
-    text: "Super Typhoon Sinlaku barrels over remote U.S. islands in the Pacific",
-    publisher: "CBS News",
-    time: "APR 15, 2026",
-    url: "https://www.cbsnews.com/news/super-typhoon-sinlaku-remote-us-islands-pacific/",
-    publisherColor: "#fff",
-    publisherBg: "#003876",
-    publisherFont: "Arial, sans-serif",
-  },
-  {
-    id: 3,
-    text: "Drug overdose deaths are plummeting in the U.S. in ways never seen before",
-    publisher: "NPR",
-    time: "APR 14, 2026",
-    url: "https://www.npr.org/sections/news",
-    publisherColor: "#fff",
-    publisherBg: "#222",
-    publisherFont: "Georgia, serif",
-  },
-  {
-    id: 4,
-    text: "US blockade of Strait of Hormuz: Iran ceasefire talks could resume before deadline",
-    publisher: "CNN",
-    time: "APR 14, 2026",
-    url: "https://www.cnn.com/2026/04/14/world/live-news/iran-war-blockade-us-trump",
-    publisherColor: "#fff",
-    publisherBg: "#cc0000",
-    publisherFont: "Arial, sans-serif",
-  },
+import { useEffect, useState } from "react";
+import api from "../api";
+import { useUser } from "../UserContext";
+ 
+const FALLBACK = [
+  { id: 1, text: "DOJ moves to dismiss Jan. 6 convictions against 12 former Proud Boys and Oath Keepers", publisher: "CBS News", time: "APR 15, 2026", url: "https://www.cbsnews.com/news/doj-moves-dismiss-jan-6-convictions-proud-boys-oath-keepers-seditious-conspiracy/", publisherColor: "#fff", publisherBg: "#003876", publisherFont: "Arial, sans-serif" },
+  { id: 2, text: "Super Typhoon Sinlaku barrels over remote U.S. islands in the Pacific", publisher: "CBS News", time: "APR 15, 2026", url: "https://www.cbsnews.com/news/super-typhoon-sinlaku-remote-us-islands-pacific/", publisherColor: "#fff", publisherBg: "#003876", publisherFont: "Arial, sans-serif" },
+  { id: 3, text: "Drug overdose deaths are plummeting in the U.S. in ways never seen before", publisher: "NPR", time: "APR 14, 2026", url: "https://www.npr.org/sections/news", publisherColor: "#fff", publisherBg: "#222", publisherFont: "Georgia, serif" },
+  { id: 4, text: "US blockade of Strait of Hormuz: Iran ceasefire talks could resume before deadline", publisher: "CNN", time: "APR 14, 2026", url: "https://www.cnn.com/2026/04/14/world/live-news/iran-war-blockade-us-trump", publisherColor: "#fff", publisherBg: "#cc0000", publisherFont: "Arial, sans-serif" },
 ];
 
+function prettyTime(iso) {
+  if (!iso) return "";
+  try {
+    const d = new Date(iso);
+    return d.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric" }).toUpperCase();
+  } catch { return iso; }
+}
+
 export default function Headlines() {
+  const { userId } = useUser();
+  const [items, setItems] = useState(FALLBACK);
+
+  useEffect(() => {
+    let alive = true;
+    api.headlines(userId, 4)
+      .then(r => { if (alive && r?.headlines?.length) setItems(r.headlines); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, [userId]);
+ 
+  const onClick = (h) => {
+    // Optimistic: record the read, don't wait.
+    if (h?.id) api.ingestById(userId, h.id).catch(() => {});
+  };
+
   return (
     <div style={s.card}>
       <div style={s.title}>Top Headlines Today</div>
-      {headlines.map(h => (
-        <a key={h.id} href={h.url} target="_blank" rel="noreferrer" style={s.item}>
+      {items.map(h => (
+        <a key={h.id} href={h.url} target="_blank" rel="noreferrer" style={s.item} onClick={() => onClick(h)}>
           <div style={s.text}>{h.text}</div>
           <div style={s.bottom}>
             <span style={{
@@ -57,7 +49,7 @@ export default function Headlines() {
             }}>
               {h.publisher}
             </span>
-            <span style={s.time}>{h.time}</span>
+            <span style={s.time}>{h.time?.includes("T") ? prettyTime(h.time) : h.time}</span>
           </div>
         </a>
       ))}
